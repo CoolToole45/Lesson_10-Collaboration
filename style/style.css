@@ -156,6 +156,7 @@ section{
 /*Footer Start*/
 
 footer {
+    width: 100%;
     background-color: blue;
     margin-top: 230px;
 }
