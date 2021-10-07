@@ -1,9 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-size: 100%;
     box-sizing: border-box;
 }
+  
+/*Header Start*/
+  
 .container{
     max-width: 1920px;
     width:100% ;
@@ -84,7 +86,162 @@
     align-items: flex-end;
     
 }
-.section-main-image{
+.section1-main-image{
         margin-top: -150px;
-        padding-bottom: 30px;
+        padding-bottom: 30px;  
+  
+/*Header End*/
+
+/*Section Start*/
+
+section{
+    max-width: 1920px;
+    width: 100%;
 }
+.section-head{
+    max-width: 1429px;
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.section-head h2{
+    font-size: 38px;
+}
+.bullets{
+    display: flex;
+    justify-content: end;
+}
+.bullet-1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0A22F4;
+}
+.bullet-2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0A22F4;
+    opacity: 0.3;
+    margin-left: 20px;
+}
+.sec-text{
+    font-size: 16px;
+    width: 463px;
+}
+.sec-text span{
+    color: blue;
+}
+.partners-main-div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1429px;
+    width: 100%;
+    margin: 60px auto;
+}
+.partners-icons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+}
+
+/*Section End*/
+
+
+
+/*Footer Start*/
+
+footer {
+    background-color: blue;
+    margin-top: 230px;
+}
+
+.Footer_Block {
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.Footer_Left {
+    margin: 50px 20px 0 200px;
+    width: 40%;
+}
+
+.Footer_Text {
+    display: inline-block;
+    width: 490px;
+    padding: 30px 0 58px;
+}
+
+.Num_Email {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.Num_Email span {
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.Contact {
+    border: 10px solid;
+    border-color: white;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.Form_Container {
+    width: 40%;
+    max-width: 450px;
+    margin: 50px 0 20px 200px;
+}
+
+.Footer_Form div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.Input_Line {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    resize: none;
+    opacity: 0.5;
+}
+
+textarea {
+    height: 100px;
+}
+
+.Submit_Button {
+    align-self: flex-end;
+    width: 40%;
+    border: none;
+    border: 20px solid white;
+    background-color: white;
+    font-weight: bold;
+}
+
+.Footer_Bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 250px;
+    padding: 20px 0 40px;
+    color: white;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    width: 70%;
+}
+
+.Footer_Bottom span {
+    margin-right: 10px;
+}
+  
+/*Footer End*/
